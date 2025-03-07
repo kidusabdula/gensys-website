@@ -1,15 +1,7 @@
-import { Poppins } from "@next/font/google";
 import "@/styles/globals.css";
 import Navbar from "@/components/Navbar";
 import TopBar from "@/components/TopBar";
 
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  variable: "--font-poppins",
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-});
 
 export const metadata = {
   title: "Gensys - Empowering Technology, Shaping the Future",
@@ -22,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${poppins.variable} font-sans`}>
+    <html lang="en" className="font-sans">
       <body>
         <TopBar />
         <Navbar />
