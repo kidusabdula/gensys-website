@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["sans-serif", "Poppins"],
+        sans: [ "Poppins","sans-serif"],
       },
       borderRadius: {
         gensys: "0.5rem", // Keeping the custom border radius for consistency

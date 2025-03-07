@@ -18,14 +18,14 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-white fixed w-full z-20 top-12 start-0 border-b border-gray-200">
+    <nav className="bg-white relative w-full z-20 top-12 start-0 border-b border-gray-200">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <Image
             src="/logos/gensys-logo.png"
-            width={200}
-            height={200}
+            width={20}
+            height={20}
             className="h-12 w-auto"
             alt="Gensys Logo"
           />
