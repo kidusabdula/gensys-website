@@ -1,6 +1,7 @@
 import Capabilities from "@/components/Capabilites";
 import GetStartedSection from "@/components/Cards";
 import Hero from "@/components/Hero";
+import TechStackSection from "@/components/Stack";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
     <Hero/>
     <Capabilities/>
     <GetStartedSection/>
+    <TechStackSection/>
    </div>
   );
 }
