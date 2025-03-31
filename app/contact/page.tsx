@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -68,7 +67,7 @@ const ContactPage = () => {
         >
           <h1 className="text-5xl font-bold text-primary mb-4">Get in Touch</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Have a question or want to work together? Reach out to us and we'll get back to you as soon as possible.
+            Have a question or want to work together? Reach out to us and we&apos;ll get back to you as soon as possible.
           </p>
         </motion.div>
 
@@ -83,7 +82,7 @@ const ContactPage = () => {
             <motion.div variants={itemVariants} className="mb-8">
               <h2 className="text-2xl font-semibold text-primary mb-6">Contact Information</h2>
               <p className="text-gray-600 mb-4">
-                We're here to help and answer any questions you might have. We look forward to hearing from you.
+                We&apos;re here to help and answer any questions you might have. We look forward to hearing from you.
               </p>
             </motion.div>
 
@@ -157,7 +156,7 @@ const ContactPage = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 className="bg-green-50 border border-green-200 text-green-700 px-4 py-3 rounded-lg mb-6"
               >
-                Thank you for your message! We'll get back to you soon.
+                Thank you for your message! We&apos;ll get back to you soon.
               </motion.div>
             ) : (
               <form onSubmit={handleSubmit}>
