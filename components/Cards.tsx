@@ -26,7 +26,7 @@ export default function GetStartedSection() {
   ];
 
   return (
-    <section className="py-16 bg-[#1E3A8A] text-white">
+    <section className="py-16 bg-blue-950 text-white">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold mb-4">
           Get Started in as Little as Two Weeks
@@ -49,9 +49,9 @@ export default function GetStartedSection() {
         </div>
         <Link
           href="/contact"
-          className="mt-8 inline-block bg-yellow-400 text-[#1E3A8A] font-semibold py-3 px-6 rounded-lg hover:bg-yellow-500 transition-colors"
+          className="mt-8 inline-block bg-[#2D4A8F]  text-[#1E3A8A] font-semibold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors"
         >
-          Get in Touch
+          <p className="text-white">Get in Touch</p>
         </Link>
       </div>
     </section>

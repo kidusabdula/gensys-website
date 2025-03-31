@@ -36,7 +36,7 @@ export default function Capabilities() {
       image: "/mobile_apps.jpg",
     },
     {
-      title: "AI Solutions",
+      title: "Blockchain Solutions",
       description:
         "Innovative AI-driven solutions to optimize business processes, leveraging machine learning, natural language processing, and predictive analytics for smarter decision-making and efficiency.",
       image: "/ai_solutions.jpg",
@@ -46,10 +46,10 @@ export default function Capabilities() {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-5xl font-bold text-center mb-6 text-black">
+        <h2 className="text-5xl font-bold text-center mb-6 text-blue-900">
           Our Capabilities
         </h2>
-        <p className="text-center text-lg mb-18 max-w-2xl mx-auto text-gray-800">
+        <p className="text-center text-lg mb-18 max-w-2xl mx-auto text-blue-950">
           We&apos;re proud to offer exceptional senior talent and teams across a
           variety of digital disciplines.
         </p>

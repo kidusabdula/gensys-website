@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import Navbar from "@/components/Navbar";
 import TopBar from "@/components/TopBar";
-
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Gensys - Empowering Technology, Shaping the Future",
@@ -19,6 +19,7 @@ export default function RootLayout({
         <TopBar />
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

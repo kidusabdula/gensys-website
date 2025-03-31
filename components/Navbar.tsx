@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image"; // Assuming you have a Gensys logo
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
@@ -11,23 +11,22 @@ export default function Navbar() {
 
   const navLinks = [
     { href: "/", label: "Home" },
-    { href: "/about", label: "About" },
     { href: "/services", label: "Services" },
-    { href: "/portfolio", label: "Portfolio" },
     { href: "/contact", label: "Contact" },
   ];
 
   return (
-    <nav className="bg-white relative w-full z-20 top-12 start-0 border-b border-gray-200">
+    <nav className="bg-white sticky w-full z-20 top-8 start-0 border-b border-gray-200">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <Image
-            src="/logos/gensys-logo.png"
+            src="/logo2.png"
             width={20}
             height={20}
-            className="h-12 w-auto"
+            className="h-15 w-auto"
             alt="Gensys Logo"
+            quality={100}
           />
           <span className="self-center text-3xl font-semibold whitespace-nowrap text-black">
             Gensys
@@ -36,12 +35,6 @@ export default function Navbar() {
 
         {/* Mobile Menu Button */}
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <button
-            type="button"
-            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-4 py-2 text-sm text-center"
-          >
-            Get Started
-          </button>
           <button
             onClick={() => setIsOpen(!isOpen)}
             type="button"
