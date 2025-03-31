@@ -57,7 +57,7 @@ export default function Capabilities() {
           {capabilities.map((cap, index) => (
             <div
               key={index}
-              className="relative bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow overflow-hidden border border-gray-200"
+              className="relative bg-white p-8 shadow-lg hover:shadow-xl transition-shadow overflow-hidden border border-gray-200"
               style={{ borderColor: "#E5E7EB" }}
             >
               <div className="w-full h-64 mb-6 overflow-hidden rounded-t-lg">
